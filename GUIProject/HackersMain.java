@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package guis;
+package Hackers;
 import javax.swing.*;
 import java.awt.*;
 import javax.swing.JFrame;
 import java.awt.Color;
 import javax.swing.ImageIcon;
+import java.awt.event.*;
+
 /**
  *
  * @author cruef
@@ -16,6 +18,12 @@ import javax.swing.ImageIcon;
 public class HackersMain {
     
     public static void main(String[] args) {
+        
+        //KEY LISTENER
+        //Keys key = new Keys();
+       
+        
+        
         JFrame frame = new JFrame("HACKERS");
         //this closes the window
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -175,4 +183,6 @@ public class HackersMain {
         
         frame.setVisible(true);
     }
+    
+    
 }
